@@ -1,0 +1,14 @@
+{
+    "name": "hanif/electra",
+    "description": "API for electra",
+    "type": "library",
+    "require": {
+        "alash3al/horus": "^13.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "Horus": "vendor/alash3al/horus"
+        }
+    }
+}

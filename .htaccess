@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+   AddHandler cgi-script .pl .cgi
+   Options +ExecCGI +FollowSymLinks
+   RewriteEngine On
+   RewriteCond %{REQUEST_FILENAME} !-f
+   RewriteRule ^ index.php [QSA,L]
+</IfModule>
