@@ -6,7 +6,7 @@ class db {
         $hostname = 'localhost';
         $username = 'root';
         $password = 'root';
-        $dbname   = 'shoppinggps';
+        $dbname   = 'fht';
 
         try {
             return new PDO("mysql:host=$hostname;dbname=$dbname", $username, $password);
